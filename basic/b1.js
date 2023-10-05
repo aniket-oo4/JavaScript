@@ -29,6 +29,7 @@ a=23;// definition
 // undefined and not defined they bith are different 
 // if you have particuar thing but not known the value for it  declared but not defined 
 // and  not defined means you dont have this soecific thing or this thing does'nt exist  not declared 
+
  console.log(b);// not defined  
 
 
@@ -37,4 +38,34 @@ a=23;// definition
 // primitive and reference 
 // primitives== number ,string ,null ,undefined ,boolean,
 // reference =[],{},()
+// reference are those if we copy it then it will not create real copy but creates reference holds actual variable reference this called reference  and  those whi are create copy those are primitive 
+
+
+// if we make change  in reference varible it will also change for main
+// for eg 
+// var a=[923]
+// var b=a
+// console.log(a, "and ",b)
+// b.push(0244)
+// console.log(a)
+
 // :--  reference are those whose use any type of brackets 
+
+
+// funciton   
+// function mynumber(a,b)
+// {
+//     return a*b;
+// }
+
+// mynumber(12,66)
+
+
+
+// conditionals 
+if(3>4)
+    console.log("great");
+else if(3>2)
+   console.log("mid");
+else
+  console.log("short")
