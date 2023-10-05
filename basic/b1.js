@@ -17,6 +17,7 @@ const dulha="tatya";// to make cosntants
 var dulhan ="hhheee";
 // comsole.log()
 // let also make the variables but there is  some difference 
+// let is used to declare block level vsariable in javascript 
 
 
 // 3 *****  
@@ -62,10 +63,10 @@ a=23;// definition
 
 
 
-// conditionals 
-if(3>4)
-    console.log("great");
-else if(3>2)
-   console.log("mid");
-else
-  console.log("short")
+// // conditionals 
+// if(3>4)
+//     console.log("great");
+// else if(3>2)
+//    console.log("mid");
+// else
+//   console.log("short")

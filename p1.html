@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>methods of printing output to window</title>
+    <style>
+        .button:hover{
+           background-color:aqua;
+           
+           border-radius: 5px ;
+           cursor:wait;
+           cursor: cell;
+            /*overflow-x:scroll ;
+            overflow-y:inherit;*/
+        }
+    </style>
+    <script src="basic/external.js"></script>
+</head>
+<body>
+    
+    <input type="text" id="1">first text <br>
+    <input type="text" name="" id="2"> second text
+    <input type="button" value=" enter " onclick="document.write(a+b);" class=" button">
+    <input type="button" value="print " onclick="window.print()" class=" button"><!-- for printing page function -->
+    <input type="button" value="alert it " onclick="f2()" class=" button">
+
+
+    <input type="button" value="change para " onclick="myFunction()" class=" button">
+    <p id="para"></p>
+    <script>
+        var a="hkfhskdf";
+        var b="1233333";
+        console.log(a+b);// only works if written in browser 
+        document.getElementById("para").innerHTML =
+        "ha ha ha ";
+        
+        document.write(a+b);
+       // window.alert(a+b);  // alert(a+b) also can be used 
+        var flag=1;
+        function myFunction() {
+              document.getElementById("para").innerHTML = "Paragraph changed.";
+            
+          }
+        
+
+    </script>
+</body>
+</html>
