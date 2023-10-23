@@ -28,6 +28,13 @@
 
     <input type="button" value="change para " onclick="myFunction()" class=" button">
     <p id="para"></p>
+
+    <label for="name">
+        Name:
+       </label> <input type="text" name="name" id="name">
+       <input type="button" value="show " id="btn" onclick="show()">
+       <h4><p id="para2"> here name will be displayed</p></h4>
+    
     <script>
         var a="hkfhskdf";
         var b="1233333";
@@ -42,6 +49,14 @@
               document.getElementById("para").innerHTML = "Paragraph changed.";
             
           }
+
+          
+function show()
+{ 
+    var name=document.getElementById("name").value;  // .value is used to acces value of input field 
+    document.getElementById("para2").innerHTML=name;
+}
+
         
 
     </script>
